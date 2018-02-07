@@ -3,13 +3,14 @@
     package="com.example.flora.awesomeweather">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:name=".Utilities.WeatherAppilcation"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WeatherActivity">
+        <activity android:name=".AwsWeather.WeatherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
